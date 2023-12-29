@@ -1,0 +1,639 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+
+COLORES
+
+#001524    AZUL
+
+#15616D    MARINO
+
+#FFECD1    CREMA
+
+#FEFAE0    BLANCO
+
+#F8F8F8    SEGUNDO BLANCO
+
+#FF7D00    NARANJA
+
+#78290F    MARRON
+
+#C4CBC5    GRIS
+
+rgb(243, 243, 243); GRIS CLARITO
+
+*/
+
+@font-face {
+    font-family: titulo;
+    src: url(../ASSETS/FONTS/JosefinSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: textoRegular ;
+    src: url(../ASSETS/FONTS/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf);
+}
+
+@font-face {
+    font-family: textoMedium ;
+    src: url(../ASSETS/FONTS/MADE\ TOMMY\ Medium_PERSONAL\ USE.otf);
+}
+
+@font-face {
+    font-family: infoRegular;
+    src: url(../ASSETS/FONTS/infoRegular.ttf);
+}
+
+@font-face {
+    font-family: infoBold;
+    src: url(../ASSETS/FONTS/infoBold.ttf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../ASSETS/FONTS/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: montserratMedium;
+    src: url(../ASSETS/FONTS/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: montserratRegular;
+    src: url(../ASSETS/FONTS/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: montserratBold;
+    src: url(../ASSETS/FONTS/Montserrat-Bold.ttf);
+}
+
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color:#f8f8f8f8;
+    
+}
+
+
+/* ------- HEADER ------ */
+
+
+header {
+    width: 100%;
+    height: 100%;
+    background-color:#F8F8F8;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+    
+}
+
+.disclaimer {
+    height: 100px;
+    padding: 10px;
+    position: sticky;
+    top:0;
+    z-index: 2;
+    background-color: #001524;
+    color:#FEFAE0;
+
+}
+
+.disclaimer p {
+    font-family: montserrat;
+    font-size: .8rem;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.mark {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    position: relative;
+    
+    
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    align-self: center;
+}
+
+.headerTitle {
+    
+    padding: 10px;
+    font-family: montserratRegular;
+    font-size: 1.6rem;
+    letter-spacing: 8px;
+    color:#001524
+}
+
+nav  {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(216, 216, 216); ;
+}
+
+nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-family: montserratRegular;
+    font-size: .9rem;
+    letter-spacing: 1px;
+    color:#001524 ;
+    /* z-index: 1; */
+    
+}
+
+
+
+
+nav a i {
+    padding-bottom: 5px;
+}
+
+
+
+/* ----- BANNER ----- */
+
+
+
+.banner {
+    width: 100%;
+    min-height: 45vh;
+    
+    background: linear-gradient(to right, #15616D   20% , transparent),
+    url("../ASSETS/banner2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: montserrat;
+    font-size: .7rem;
+    letter-spacing: 1.5px;
+    text-align:center;
+    color: #FEFAE0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner h2 {
+    max-width: 200px;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.banner h3 {
+    max-width: 250px;
+    font-family: montserrat;
+    letter-spacing: 2px;
+}
+
+.banner button {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    font-family: montserratRegular;
+    letter-spacing: 2px;
+    background-color: #001524;
+    color: #FEFAE0;
+}
+
+.banner button i {
+    padding-right: 5px;
+    font-size: 1rem;
+}
+
+
+
+/* ----- GALERIA ----- */
+
+
+
+.galery {
+    display: flex;
+    margin: 5px;
+    overflow-y: scroll;
+    scroll-behavior:smooth;
+    
+    
+}
+
+
+
+.pics img {
+    display: flex;
+    max-width: 40vw;
+    max-height: 15vh;
+    
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+
+/* ----- CATEGORIAS ------ */
+
+.categorias {
+    margin-top: 50px;
+    font-family: montserratRegular;
+    font-size: .9rem;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration:line-through;
+}
+
+.categoria {
+    font-size: 1.2rem;
+}
+
+.categories {
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.categories a {
+    text-decoration: none;
+}
+
+.category {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin-top: 30px;
+    
+    
+}
+
+.category img {
+    /* padding-top: 5px;
+    border-top:1px solid rgb(243, 243, 243) ; */
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.skewCategories {
+    width: 210px;
+    height: 20px;
+    transform: skewY(-3deg);
+    position: relative;
+    bottom: 15px;
+    background-color: rgb(236, 236, 236);
+    
+}
+
+
+.textYbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    /* height: 75px; */
+    padding: 5px;
+    position: relative;
+    bottom: 30px;
+    background-color: rgb(236, 236, 236);
+    color:#15616D;
+    font-family: montserratMedium;
+    text-align: center;
+}
+
+.textYbtn h2 {
+    letter-spacing: 1px;
+    padding: 5px;
+}
+
+
+.textYbtn button {
+    width: 100px;
+    height: 50px;
+    background:linear-gradient(to top,#001524,#001524b2 )  ;
+    color: #FEFAE0;
+    font-family: montserratRegular;
+    font-size: .9rem;
+    letter-spacing: 1.5px;
+    position: relative;
+    top: 20px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+
+.buzosYcamperas {
+    margin: 50px 0;
+}
+
+
+/* ------ MAIN ------ */
+
+.destacados {
+    margin: 20px;
+    font-family: montserratRegular;
+    font-size: .9rem;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration:line-through;
+
+}
+
+#mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.prodContainer {
+    width: 40%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.prodContainer a {
+    text-decoration: none;
+}
+
+.prodContainer img {
+    display: flex;
+    width: 140px;
+    height: 200px;
+    position: relative;
+    top: 15px;
+    
+    
+
+}
+
+.skewDiv {
+    display: flex;
+    
+    width: 140px;
+    
+    height: 15px;
+    /* border: #001524 1px solid; */  
+    background-color: rgb(236, 236, 236);
+    transform: skewY(-3deg);
+    position: relative;
+    top: 4px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 15px;
+    background-color: rgb(236, 236, 236);
+    
+    
+}
+
+.infoTitle {
+    min-width: 135px;
+    max-width: 140px;
+    
+}
+
+.infoContainer h3 {
+    padding-top: 5px;
+    padding-bottom: 3px;
+    font-family: montserrat;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #001524;
+}
+
+.infoContainer a {
+    padding: 2px;
+    font-family: montserrat;
+    font-size: .7rem;
+    letter-spacing: 1.5px;
+    
+    color:#001524
+}
+
+
+
+.seeAll {
+    width: 90vw;
+    height: 50px;
+    margin: 5vw;
+    background: linear-gradient(to top,#001524,#001524b2 )  ;
+    
+    
+    border: none;
+    border-radius: 5px;
+}
+
+.seeAll a {
+    text-decoration: none;
+    font-family: montserratRegular;
+    font-size: .9rem;
+    letter-spacing: 2px;
+    color: #FEFAE0;
+}
+
+/* ------ FOOTER ------- */
+
+footer {
+    height: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-color:#F8F8F8;
+    color:#001524;
+}
+
+footer h3 {
+    font-family: montserratRegular;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-align: center;
+}
+
+footer h4 {
+    font-family: montserrat;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.followUs  {
+    max-width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    border-top: rgb(212, 212, 212) 1px solid;
+}
+
+
+.followUs h4 {
+    font-family: montserrat;
+    font-size: .8rem;
+    padding-left: 10px;
+
+}
+
+.followUs a {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    padding: 10px;
+    font-family: montserrat;
+    font-size: 1rem;
+    text-decoration: none;
+    color:#001524;
+    
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+
+.shipments {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid rgb(212, 212, 212);
+    
+}
+
+
+.ftLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ftLinks a {
+    font-family: montserrat;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    margin: 5px;
+    color: #001524;
+}
+
+.shipmentsWays {
+    padding-top: 3px;
+    border-top:solid 1px rgb(212, 212, 212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shipmentsWays h3 {
+    padding: 5px;
+}
+
+.oca {
+    width: 75px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.cruceroExpress {
+    width:100px;
+    height: 30px;
+}
+
+.rutaCargo {
+    width: 100px;
+    height: 30px;}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maps {
+    text-decoration: none;
+    color: #001524;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maps img {
+    width: 60px;
+    height: 60px;
+}
+
+.maps h4 {
+    padding-left: 5px;
+}
+
+.maps h5 {
+    font-family: montserrat;
+    font-size: .7rem;
+    padding-left: 7px;
+    letter-spacing: 1px;
+}
+.hour {
+    text-align:center;
+    line-height: 25px;
+}
+
+
+
+/* ------- PRODUCTO ---------- */
+
+.aloneContainer {
+    display: flex;
+}
+
+
+.aloneContainer img {
+    /* display: flex; */
+    width: 140px;
+    height: 200px;
+    position: relative;
+    top: 15px;
+}
+
+.aloneInfo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 15px;
+    background-color: rgb(236, 236, 236);
+
+}

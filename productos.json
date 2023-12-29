@@ -1,0 +1,245 @@
+
+
+
+[
+
+  {"name": "REMERA HOMBRE BLANCA",
+  "subtitle":"",
+  "info":"Remera 100% algodón escandinavo recolectado por un Noruego medio en pedo que le pega a la jermu",
+  "size":"S M L",
+  "id": 1,
+  "price": 1400,
+  "img":"./ASSETS/PICS/1 REMERA BLANCA MODAL.jpg",
+  "page": "",
+  "href":"./producto.html"
+  },
+
+
+
+  {"name": "REMERA MUJER BLANCA",
+    "subtitle": "",
+    "info":"",      
+    "id": 2,
+    "price": 1200,
+    "img":"./ASSETS/PICS/2 REMERA MUJER BLANCO.jpg",
+    "page": ""
+    },
+
+
+
+  {"name":"REMERA NIÑO/A BLANCA",
+   "subtitle":"",
+   "info":"",
+   "id": 3,
+   "price": 1000,
+   "img":"./ASSETS/PICS/3 REMERA NIÑO BLANCA.jpg",
+   "page": ""
+    },
+
+
+
+  {"name": "REMERA HOMBRE GRIS",
+  "subtitle":"",
+  "info":"",
+  "id": 4,
+  "price": 1400,
+  "img":"./ASSETS/PICS/4 REMERA GRIS.jpg",
+  "page": ""
+  },
+
+
+
+  {"name": "REMERA MUJER GRIS",
+    "subtitle": "",
+    "info":"",      
+    "id": 5,
+    "price": 1200,
+    "img":"./ASSETS/PICS/5 REMERA MUJER GRIS.jpg",
+    "page": ""
+    },
+     
+
+
+    {"name":"REMERA NIÑO/A GRIS",
+    "subtitle":"",
+    "info":"",
+    "id": 6,
+    "price": 1000,
+    "img":"./ASSETS/PICS/6 REMERA NIÑO GRIS.jpg",
+    "page": ""
+     },
+    
+
+    
+
+
+    {"name":"SPUM HOMBRE BLANCA",
+    "subtitle":"",
+    "info":"",
+    "id": 7,
+    "price": 1150,
+    "img": "./ASSETS/PICS/7 REMERA BLANCA SPUM.jpg",
+    "page": ""
+     },
+
+
+      {"name":"SPUM HOMBRE GRIS",
+      "subtitle": "",
+      "info":"",
+      "id": 8,
+      "price": 1180,
+      "img": "./ASSETS/PICS/8 REMERA GRIS SPUM.jpg",
+      "page": ""
+      },
+
+
+      {"name":"REMERON V/COLORES",
+      "subtitle": "",
+      "info":"",
+      "id": 9,
+      "price": 1180,
+      "img": "./ASSETS/PICS/9 REMERON.jpg",
+      "page": ""
+      },  
+
+
+      {"name":"MANGA RANGLAN BLANCA",
+      "subtitle": "",
+      "info":"",
+      "id": 10,
+      "price": 1880,
+      "img": "./ASSETS/PICS/B1 MANGA RANGLAN BLANCA.jpg",
+      "page": ""
+      },
+
+
+      {"name":"MANGA RANGLAN GRIS",
+      "subtitle": "",
+      "info":"",
+      "id": 11,
+      "price": 1580,
+      "img": "./ASSETS/PICS/B2  MANGA RANGLAN GRIS..jpg",
+      "page": ""
+      },
+
+
+
+      {"name":"MANGA RANGLAN NIÑO BLANCA",
+      "subtitle": "",
+      "info":"",
+      "id": 12,
+      "price": 1240,
+      "img": "./ASSETS/PICS/B3 MANGA RANGLAN NIÑO BLANCA.jpg",
+      "page": ""
+      },
+
+
+      {"name":"MANGA RANGLAN NIÑO GRIS",
+      "subtitle": "",
+      "info":"",
+      "id": 13,
+      "price": 1510,
+      "img": "./ASSETS/PICS/B4 MANGA RANGLAN NIÑO GRIS.jpg",
+      "page": ""
+      },
+
+
+
+      {"name":"SUDADERAS V/COLORES",
+      "subtitle": "",
+      "info":"",
+      "id": 14,
+      "price": 1270,
+      "img": "./ASSETS/PICS/B5 SUDADERAS.jpg",
+      "page": ""
+      },
+
+
+      {"name":"REMERAS ALGODON",
+      "subtitle": "",
+      "info":"",
+      "id": 15,
+      "price": 1510,
+      "img": "./ASSETS/PICS/B6 REMERAS ALGODON.jpg",
+      "page": ""
+      },
+
+
+      {"name":"REMERAS ALGODON ESP",
+      "subtitle": "",
+      "info":"",
+      "id": 16,
+      "price": 2510,
+      "img": "./ASSETS/PICS/B7 REMERAS ALGODON ESP.jpg",
+      "page": ""
+      },
+
+
+      {"name":"CANGURO GRIS UNISEX",
+      "subtitle": "",
+      "info":"",
+      "id": 17,
+      "price": 5500,
+      "img":"./ASSETS/PICS/B8 BUZO CANGURO GRIS.jpg",
+      "page": ""
+      },
+
+
+      {"name":"CANGURO GRIS NIÑO/A",
+      "subtitle":"",
+      "info":"",
+      "id": 18,
+      "price": 5000,
+      "img":"./ASSETS/PICS/B9 BUZO CANGURO MIÑO GRIS.jpg",
+      "page": ""
+      },
+
+      {"name":"CANGURO RANGLAN",
+      "subtitle":"",
+      "info":"",
+      "id": 19,
+      "price": 5800,
+      "img":"./ASSETS/PICS/C1 BUZO CANGURO RANGLAN.jpg",
+      "page": ""
+      },
+
+      {"name":"BUZO CANGURO NEGRO",
+      "subtitle":"",
+      "info":"",
+      "id": 20,
+      "price": 6500,
+      "img":"./ASSETS/PICS/C2 BUZO CANGURO NEGRO.jpg",
+      "page": ""
+      },
+
+
+      {"name":"BUZO LANILLA UNISEX",
+      "subtitle":"",
+      "info":"",
+      "id": 21,
+      "price": 6800,
+      "img":"./ASSETS/PICS/C3 BUZO LANILLA.jpg",
+      "page": ""
+      },
+
+
+
+      {"name":"CAMPERA UNIVERSITARIA",
+      "subtitle":"",
+      "info":"",
+      "id": 22,
+      "price": 5300,
+      "img":"./ASSETS/PICS/C4 CAMPERA UNIVERSITARIA.jpg",
+      "page": ""
+      },
+
+
+      {"name":"CAMPERA UNIV. NIÑO/A",
+      "subtitle":"",
+      "info":"",
+      "id": 23,
+      "price": 7300,
+      "img":"./ASSETS/PICS/C5 CAMPERA UNIVERSITARIA NIÑO.jpg",
+      "page": ""
+      }
+]
