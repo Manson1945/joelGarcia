@@ -50,6 +50,7 @@ fetch("./productos.json")
         console.log(producto);
 
         let salida = `
+
         <section class="aloneContainer" onclick="buscarProducto(${producto.id})">
 
              
@@ -60,14 +61,14 @@ fetch("./productos.json")
     
         <div class="aloneInfo">
 
+        <h4 class=""> ${producto.name} </h4>
+        
 
-        <h3 class=""> ${producto.name} </h3>
-
-        <h3 class=""> ${producto.info} </h3>
+        <h5 class=""> ${producto.info} </h5>
 
         <h3 class=""> ${producto.size} </h3>
 
-        <h3 class="">$ ${producto.price} </h3>
+        <h4 class="">$ ${producto.price} </h4>
 
         
 
@@ -102,6 +103,7 @@ fetch("./productos.json")
 
     
             salida += ` 
+            <a href="#divHref">
             <section class="prodContainer" onclick="buscarProducto(${prod.id})">
 
             <img src="${prod.img}" > 
@@ -121,6 +123,7 @@ fetch("./productos.json")
             </div>
     
         </section>
+        </a>
                         `
         }
     

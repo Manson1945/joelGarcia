@@ -369,6 +369,7 @@ nav a i {
     flex-wrap: wrap;
     justify-content: center;
     
+    
 }
 
 .prodContainer {
@@ -615,25 +616,68 @@ footer h4 {
 
 /* ------- PRODUCTO ---------- */
 
-.aloneContainer {
+#productContainer {
+    width: 100%;
+    /* height: 300px; */
+    margin-top: 50px;
     display: flex;
+    justify-content: center;
+    scroll-behavior: smooth;
+
+}
+
+.aloneContainer {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    /* border: 1px black solid;
+    border-radius: 10%; */
+    
 }
 
 
 .aloneContainer img {
-    /* display: flex; */
+    
     width: 140px;
-    height: 200px;
-    position: relative;
-    top: 15px;
+    height: 300px;
+    /* position: relative;
+    top: 15px; */
 }
 
 .aloneInfo {
-
+    border-radius:0 20px 20px 0;
+    
+    text-align: center;
+    /* padding: 10px; */
     display: flex;
     flex-direction: column;
+    justify-content:space-around;
     align-items: center;
-    line-height: 15px;
     background-color: rgb(236, 236, 236);
+    color: #001524;
+    font-family: montserrat;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    line-height: 20px;
 
+}
+
+.aloneInfo h3 {
+    margin: 10px 0;
+    color: #1f8b9c;
+}
+
+.aloneInfo h4 {
+
+    margin: 5px;
+
+}
+
+.aloneInfo h5 {
+    font-size: .8rem;
+    margin: 5px 15px;
+}
+
+#divHref {
+    width: 100%;
 }
