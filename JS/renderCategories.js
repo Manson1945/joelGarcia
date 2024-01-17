@@ -7,7 +7,7 @@ const renderCategories = ()=> {
     <a class="remeras category" href="../remeras.html">
     
             
-                <img src="./ASSETS/categoriaRemeras.jpg" alt="" >
+                <img src="../ASSETS/PICS/CATEGORIAS/REMERAS.jpg" alt="" >
 
     
             <div class="skewCategories"></div>
@@ -22,7 +22,7 @@ const renderCategories = ()=> {
         </a>
 
         <a class="buzosYcamperas category" href="../buzosYcamperas.html">
-            <img src="./ASSETS/categoriaBuzosYcamperas.jpg" alt="" >
+            <img src="../ASSETS/PICS/CATEGORIAS/CAMPERAS Y BUZOS.jpg" alt="" >
 
             <div class="skewCategories"></div>
             

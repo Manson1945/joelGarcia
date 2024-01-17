@@ -184,9 +184,9 @@ nav a i {
     width: 100%;
     min-height: 45vh;
     
-    background: linear-gradient(to right, #15616D   20% , transparent),
-    url("../ASSETS/banner2.jpg");
-    background-size:cover;
+    background: /* linear-gradient(to right, #15616D   20% , transparent), */
+    url("../ASSETS/PICS/BANNER/BANNER.jpg");
+    background-size:contain;
     background-repeat: no-repeat;
     font-family: montserrat;
     font-size: .7rem;
