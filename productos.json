@@ -8,7 +8,7 @@
   "info":"Remera 100% algodón escandinavo recolectado por un Noruego medio en pedo que le pega a la jermu",
   "size":"S M L",
   "id": 1,
-  "price": 1400,
+  "price": 2800,
   "img":"./ASSETS/PICS/1 REMERA BLANCA MODAL.jpg",
   "page": "",
   "href":"./producto.html"
@@ -20,7 +20,7 @@
     "subtitle": "",
     "info":"",      
     "id": 2,
-    "price": 1200,
+    "price": 2200,
     "img":"./ASSETS/PICS/2 REMERA MUJER BLANCO.jpg",
     "page": ""
     },
@@ -31,7 +31,7 @@
    "subtitle":"",
    "info":"",
    "id": 3,
-   "price": 1000,
+   "price": 1800,
    "img":"./ASSETS/PICS/3 REMERA NIÑO BLANCA.jpg",
    "page": ""
     },
@@ -42,7 +42,7 @@
   "subtitle":"",
   "info":"",
   "id": 4,
-  "price": 1400,
+  "price": 2900,
   "img":"./ASSETS/PICS/4 REMERA GRIS.jpg",
   "page": ""
   },
@@ -53,7 +53,7 @@
     "subtitle": "",
     "info":"",      
     "id": 5,
-    "price": 1200,
+    "price": 2300,
     "img":"./ASSETS/PICS/5 REMERA MUJER GRIS.jpg",
     "page": ""
     },
@@ -64,7 +64,7 @@
     "subtitle":"",
     "info":"",
     "id": 6,
-    "price": 1000,
+    "price": 1900,
     "img":"./ASSETS/PICS/6 REMERA NIÑO GRIS.jpg",
     "page": ""
      },
@@ -77,7 +77,7 @@
     "subtitle":"",
     "info":"",
     "id": 7,
-    "price": 1150,
+    "price": 2400,
     "img": "./ASSETS/PICS/7 REMERA BLANCA SPUM.jpg",
     "page": ""
      },
@@ -87,7 +87,7 @@
       "subtitle": "",
       "info":"",
       "id": 8,
-      "price": 1180,
+      "price": 2500,
       "img": "./ASSETS/PICS/8 REMERA GRIS SPUM.jpg",
       "page": ""
       },
@@ -97,7 +97,7 @@
       "subtitle": "",
       "info":"",
       "id": 9,
-      "price": 1180,
+      "price": 3000,
       "img": "./ASSETS/PICS/9 REMERON.jpg",
       "page": ""
       },  
@@ -107,7 +107,7 @@
       "subtitle": "",
       "info":"",
       "id": 10,
-      "price": 1880,
+      "price": 2800,
       "img": "./ASSETS/PICS/B1 MANGA RANGLAN BLANCA.jpg",
       "page": ""
       },
@@ -117,7 +117,7 @@
       "subtitle": "",
       "info":"",
       "id": 11,
-      "price": 1580,
+      "price": 2900,
       "img": "./ASSETS/PICS/B2  MANGA RANGLAN GRIS..jpg",
       "page": ""
       },
@@ -128,7 +128,7 @@
       "subtitle": "",
       "info":"",
       "id": 12,
-      "price": 1240,
+      "price": 1800,
       "img": "./ASSETS/PICS/B3 MANGA RANGLAN NIÑO BLANCA.jpg",
       "page": ""
       },
@@ -138,7 +138,7 @@
       "subtitle": "",
       "info":"",
       "id": 13,
-      "price": 1510,
+      "price": 1900,
       "img": "./ASSETS/PICS/B4 MANGA RANGLAN NIÑO GRIS.jpg",
       "page": ""
       },
@@ -149,7 +149,7 @@
       "subtitle": "",
       "info":"",
       "id": 14,
-      "price": 1270,
+      "price": 1900,
       "img": "./ASSETS/PICS/B5 SUDADERAS.jpg",
       "page": ""
       },
@@ -159,7 +159,7 @@
       "subtitle": "",
       "info":"",
       "id": 15,
-      "price": 1510,
+      "price": 3800,
       "img": "./ASSETS/PICS/B6 REMERAS ALGODON.jpg",
       "page": ""
       },
@@ -169,7 +169,7 @@
       "subtitle": "",
       "info":"",
       "id": 16,
-      "price": 2510,
+      "price": 4200,
       "img": "./ASSETS/PICS/B7 REMERAS ALGODON ESP.jpg",
       "page": ""
       },
@@ -179,7 +179,7 @@
       "subtitle": "",
       "info":"",
       "id": 17,
-      "price": 5500,
+      "price": 9500,
       "img":"./ASSETS/PICS/B8 BUZO CANGURO GRIS.jpg",
       "page": ""
       },
@@ -189,7 +189,7 @@
       "subtitle":"",
       "info":"",
       "id": 18,
-      "price": 5000,
+      "price": 8500,
       "img":"./ASSETS/PICS/B9 BUZO CANGURO MIÑO GRIS.jpg",
       "page": ""
       },
@@ -198,7 +198,7 @@
       "subtitle":"",
       "info":"",
       "id": 19,
-      "price": 5800,
+      "price": 9200,
       "img":"./ASSETS/PICS/C1 BUZO CANGURO RANGLAN.jpg",
       "page": ""
       },
@@ -207,7 +207,7 @@
       "subtitle":"",
       "info":"",
       "id": 20,
-      "price": 6500,
+      "price": 10500,
       "img":"./ASSETS/PICS/C2 BUZO CANGURO NEGRO.jpg",
       "page": ""
       },
@@ -217,7 +217,7 @@
       "subtitle":"",
       "info":"",
       "id": 21,
-      "price": 6800,
+      "price": 5000,
       "img":"./ASSETS/PICS/C3 BUZO LANILLA.jpg",
       "page": ""
       },
@@ -228,7 +228,7 @@
       "subtitle":"",
       "info":"",
       "id": 22,
-      "price": 5300,
+      "price": 10200,
       "img":"./ASSETS/PICS/C4 CAMPERA UNIVERSITARIA.jpg",
       "page": ""
       },
@@ -238,7 +238,7 @@
       "subtitle":"",
       "info":"",
       "id": 23,
-      "price": 7300,
+      "price": 8500,
       "img":"./ASSETS/PICS/C5 CAMPERA UNIVERSITARIA NIÑO.jpg",
       "page": ""
       }
