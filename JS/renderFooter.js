@@ -4,14 +4,7 @@ const renderFooter = ()=> {
 
     const salida = `
     
-    <section class="followUs"> 
-    <h3>SEGUINOS</h3>
-    <div class="webs">
-        <a href="https://instagram.com/joel_garcia_369?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram"></i> <h4> @JOEL_GARCIA_369 </h4> </a>
-        <a href="https://www.facebook.com/thedeaddandy?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i> <h4> JOEL GARCIA </h4> </a> 
-    </div>
-   
-</section>
+    
 
 <section class="shipments shipmentsWays">
     <h3>ENVIOS A TODO EL PAIS <i class="fa-solid fa-truck-fast"></i></h3>
@@ -33,7 +26,10 @@ const renderFooter = ()=> {
 
 <section class="contact" id="contact">
     <h3>CONTACTANOS</h3>
-    <h4><i class="fa-brands fa-whatsapp icon"></i> +54 9 11 5345 6546</h4>
+    
+        <a href="https://instagram.com/joel_garcia_369?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram"></i> <h4> @JOEL_GARCIA_369 </h4> </a>
+        <a href="https://www.facebook.com/joelgarcia369?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i> <h4> JOEL GARCIA </h4> </a> 
+    
     <h4><i class="fa-solid fa-phone"></i> 2072-8287</h4>
 </section>
 

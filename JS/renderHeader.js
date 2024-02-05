@@ -11,7 +11,7 @@ const renderHeader = ()=> {
 
     <nav>
         <a href="./index.html"><i class="fa-solid fa-house"></i>INICIO</a>
-        <a href="../productos.html"><i class="fa-solid fa-shirt"></i>PRODUCTOS</a>
+        <a href="../productos.html"><i class="fa-solid fa-shirt"></i>PRODUCTOS</a> 
         <a href="#contact"><i class="fa-solid fa-phone-flip"></i>CONTACTO</a>
     </nav>
             `
@@ -22,3 +22,4 @@ const renderHeader = ()=> {
 
         document.getElementById("header").innerHTML = salida;
 }
+

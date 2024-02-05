@@ -41,23 +41,27 @@ fetch("./productos.json")
 
         console.log(producto);
 
-        let salida = `
-        <section class="prodContainer" onclick="buscarProducto(${producto.id})">
+        let salida = 
+        `
+
+        <section class="aloneContainer" onclick="buscarProducto(${producto.id})">
 
              
 
         <img src="${producto.img}" > 
 
-        <div class="skewDiv"></div>
+        
     
-        <div class="infoContainer">
+        <div class="aloneInfo">
 
+        <h4 class=""> ${producto.name} </h4>
+        
 
-        <h3 class="infoTitle"> ${producto.name} </h3>
+        <h5 class=""> ${producto.info} </h5>
 
-        <h3 class="infoPrice">$ ${producto.price} </h3>
+        <h2 class="">$ ${producto.price} </h2>
 
-        <a>Ver talles...</a>
+        
 
         
         </div>
@@ -68,7 +72,7 @@ fetch("./productos.json")
                     `
                     
 
-        document.getElementById("mainContainer").innerHTML = salida;
+        document.getElementById("productContainer").innerHTML = salida;
 
        
         
@@ -89,33 +93,29 @@ fetch("./productos.json")
         for (prod of productos) {
 
     
-            salida += ` 
-            
+            salida +=
+             ` 
+            <a href="#divHref">
             <section class="prodContainer" onclick="buscarProducto(${prod.id})">
-
-             
-
+    
             <img src="${prod.img}" > 
     
             <div class="skewDiv"></div>
         
             <div class="infoContainer">
-
+    
     
             <h3 class="infoTitle"> ${prod.name} </h3>
-
+    
             <h3 class="infoPrice">$ ${prod.price} </h3>
-
-            <a>Ver talles...</a>
+    
+            <a onclick="buscarProducto(${prod.id})">Ver talles...</a>
     
             
             </div>
-            
-             
-
+    
         </section>
-
-        
+        </a>
                         `
         }
     

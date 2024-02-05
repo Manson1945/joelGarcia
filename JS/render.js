@@ -33,11 +33,56 @@ fetch("./productos.json")
     } 
 
 
-    const buscarProducto = (id) => {
+    /* const buscarProducto = (id) => {
 
         const productos = cargarProductosLS();
     
         return productos.find (item => item.id === id)
+        
+    }  */
+
+    const buscarProducto = (id) => {
+
+        const productos = cargarProductosLS();
+    
+        const producto = productos.find (item => item.id === id);
+
+        console.log(producto);
+
+        let salida = `
+
+        <section class="aloneContainer" onclick="buscarProducto(${producto.id})">
+
+             
+
+        <img src="${producto.img}" > 
+
+        
+    
+        <div class="aloneInfo">
+
+        <h4 class=""> ${producto.name} </h4>
+        
+
+        <h5 class=""> ${producto.info} </h5>
+
+        <h2 class=""> $ ${producto.price} </h2>
+
+        
+
+        
+
+        
+        </div>
+        
+         
+
+    </section>
+                    `
+
+        document.getElementById("productContainer").innerHTML = salida;
+
+        
         
     } 
 
@@ -53,7 +98,8 @@ fetch("./productos.json")
 
     
             salida += ` 
-            <section class="prodContainer">
+            <a href="#divHref">
+            <section class="prodContainer" onclick="buscarProducto(${prod.id})">
 
             <img src="${prod.img}" > 
     
@@ -72,6 +118,7 @@ fetch("./productos.json")
             </div>
     
         </section>
+        </a>
                         `
         }
     

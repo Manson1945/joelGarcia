@@ -3,22 +3,21 @@
 
 [
 
-  {"name": "REMERA HOMBRE BLANCA",
+  {"name": "MODAL PREMIUM HOMBRE BLANCO",
   "subtitle":"",
-  "info":"Remera 100% algodón escandinavo recolectado por un Noruego medio en pedo que le pega a la jermu",
-  "size":"S M L",
+  "info":"T.1= 48cm x 64cm T.2= 50cm x 66cm T.3= 52cm x 68cm T.4= 54cm x 70cm T.5= 56cm x 72cm T.6= 58cm x 74cm T.7= 62cm x 80cm",
   "id": 1,
   "price": 2800,
   "img":"./ASSETS/PICS/1 REMERA BLANCA MODAL.jpg",
-  "page": "",
-  "href":"./producto.html"
+  "page": ""
+  
   },
 
 
 
   {"name": "REMERA MUJER BLANCA",
     "subtitle": "",
-    "info":"",      
+    "info":"T.1= 36cm x 54cm T.2= 38cm x 56cm T.3= 41cm x 58cm T.4= 43cm x 60cm T.5= 45cm x 62cm",      
     "id": 2,
     "price": 2200,
     "img":"./ASSETS/PICS/2 REMERA MUJER BLANCO.jpg",
@@ -93,7 +92,7 @@
       },
 
 
-      {"name":"REMERON V/COLORES",
+      {"name":"REMERON SUBLIMABLE",
       "subtitle": "",
       "info":"",
       "id": 9,
@@ -103,7 +102,7 @@
       },  
 
 
-      {"name":"MANGA RANGLAN BLANCA",
+      {"name":"MODAL PREMIUM RANGLAN BLANCA",
       "subtitle": "",
       "info":"",
       "id": 10,
@@ -145,7 +144,7 @@
 
 
 
-      {"name":"SUDADERAS V/COLORES",
+      {"name":"SUDADERAS SUBLIMABLES",
       "subtitle": "",
       "info":"",
       "id": 14,
@@ -155,7 +154,7 @@
       },
 
 
-      {"name":"REMERAS ALGODON",
+      {"name":"ALGODÓN 24/1 P. TAPA COSTURA",
       "subtitle": "",
       "info":"",
       "id": 15,
@@ -165,7 +164,7 @@
       },
 
 
-      {"name":"REMERAS ALGODON ESP",
+      {"name":"ALGODON 24/1 P. T/C. ESP.",
       "subtitle": "",
       "info":"",
       "id": 16,
@@ -175,7 +174,7 @@
       },
 
 
-      {"name":"CANGURO GRIS UNISEX",
+      {"name":"CANGURO GRIS SUBLIMABLE",
       "subtitle": "",
       "info":"",
       "id": 17,
@@ -185,7 +184,7 @@
       },
 
 
-      {"name":"CANGURO GRIS NIÑO/A",
+      {"name":"CANGURO GRIS NIÑO SUB.",
       "subtitle":"",
       "info":"",
       "id": 18,
@@ -194,7 +193,7 @@
       "page": ""
       },
 
-      {"name":"CANGURO RANGLAN",
+      {"name":"CANGURO RANGLAN SUB.",
       "subtitle":"",
       "info":"",
       "id": 19,
@@ -203,7 +202,7 @@
       "page": ""
       },
 
-      {"name":"BUZO CANGURO NEGRO",
+      {"name":"CANGURO ALGODON PEINADO",
       "subtitle":"",
       "info":"",
       "id": 20,
@@ -213,7 +212,7 @@
       },
 
 
-      {"name":"BUZO LANILLA UNISEX",
+      {"name":"BUZO LANILLA SUBLIMABLE",
       "subtitle":"",
       "info":"",
       "id": 21,
@@ -224,7 +223,7 @@
 
 
 
-      {"name":"CAMPERA UNIVERSITARIA",
+      {"name":"CAMPERA UNIV. SUBLIMABLE",
       "subtitle":"",
       "info":"",
       "id": 22,
@@ -234,7 +233,7 @@
       },
 
 
-      {"name":"CAMPERA UNIV. NIÑO/A",
+      {"name":"CAMPERA UNIV. SUBLIMABLE NIÑO",
       "subtitle":"",
       "info":"",
       "id": 23,
