@@ -699,6 +699,7 @@ footer h4 {
 
 
 .aloneInfo {
+    width: 100%;
     border-radius:0 20px 20px 0;
     text-align: center;
     display: flex;
@@ -712,6 +713,10 @@ footer h4 {
     letter-spacing: 1.5px;
     line-height: 20px;
 
+}
+
+.aloneInfo h2 {
+    margin-top: 10px;
 }
 
 .aloneInfo h3 {
