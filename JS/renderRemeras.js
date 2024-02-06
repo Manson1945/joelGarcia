@@ -64,7 +64,7 @@ fetch("./productos.json")
         <h4 class=""> ${producto.name} </h4>
         
 
-        <h5 class=""> ${producto.info} </h5>
+        <h5 class="info"> ${producto.info} </h5>
 
         <h2 class="">$ ${producto.price} </h2>
 

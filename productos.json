@@ -5,7 +5,7 @@
 
   {"name": "MODAL PREMIUM HOMBRE BLANCO",
   "subtitle":"",
-  "info":"T.1= 48cm x 64cm T.2= 50cm x 66cm T.3= 52cm x 68cm T.4= 54cm x 70cm T.5= 56cm x 72cm T.6= 58cm x 74cm T.7= 62cm x 80cm",
+  "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm <br> T.6= 58cm x 74cm <br> T.8= 62cm x 80cm",
   "id": 1,
   "price": 2800,
   "img":"./ASSETS/PICS/1 REMERA BLANCA MODAL.jpg",
@@ -17,7 +17,7 @@
 
   {"name": "REMERA MUJER BLANCA",
     "subtitle": "",
-    "info":"T.1= 36cm x 54cm T.2= 38cm x 56cm T.3= 41cm x 58cm T.4= 43cm x 60cm T.5= 45cm x 62cm",      
+    "info":"Medidas orientativas: <br> T.1= 36cm x 54cm <br> T.2= 38cm x 56cm <br> T.3= 41cm x 58cm <br> T.4= 43cm x 60cm <br> T.5= 45cm x 62cm",      
     "id": 2,
     "price": 2200,
     "img":"./ASSETS/PICS/2 REMERA MUJER BLANCO.jpg",
@@ -28,7 +28,7 @@
 
   {"name":"REMERA NIÑO/A BLANCA",
    "subtitle":"",
-   "info":"",
+   "info":"Medidas orientativas: <br> T.6= 30cm x 44cm <br> T.8= 32cm x 46cm <br> T.10= 34cm x 48cm <br> T.12= 36cm x 50cm <br> T.14= 38cm x 52cm <br> T.16= 40cm x 54cm",
    "id": 3,
    "price": 1800,
    "img":"./ASSETS/PICS/3 REMERA NIÑO BLANCA.jpg",
@@ -39,7 +39,7 @@
 
   {"name": "REMERA HOMBRE GRIS",
   "subtitle":"",
-  "info":"",
+  "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm <br> T.6= 58cm x 74cm <br> T.8= 62cm x 80cm",
   "id": 4,
   "price": 2900,
   "img":"./ASSETS/PICS/4 REMERA GRIS.jpg",
@@ -50,7 +50,7 @@
 
   {"name": "REMERA MUJER GRIS",
     "subtitle": "",
-    "info":"",      
+    "info":"Medidas orientativas: <br> T.1= 36cm x 54cm <br> T.2= 38cm x 56cm <br> T.3= 41cm x 58cm <br> T.4= 43cm x 60cm <br> T.5= 45cm x 62cm",      
     "id": 5,
     "price": 2300,
     "img":"./ASSETS/PICS/5 REMERA MUJER GRIS.jpg",
@@ -61,7 +61,7 @@
 
     {"name":"REMERA NIÑO/A GRIS",
     "subtitle":"",
-    "info":"",
+    "info":"Medidas orientativas: <br> T.6= 30cm x 44cm <br> T.8= 32cm x 46cm <br> T.10= 34cm x 48cm <br> T.12= 36cm x 50cm <br> T.14= 38cm x 52cm <br> T.16= 40cm x 54cm",
     "id": 6,
     "price": 1900,
     "img":"./ASSETS/PICS/6 REMERA NIÑO GRIS.jpg",
@@ -74,7 +74,7 @@
 
     {"name":"SPUM HOMBRE BLANCA",
     "subtitle":"",
-    "info":"",
+    "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm <br> T.6= 58cm x 74cm <br> T.8= 62cm x 80cm",
     "id": 7,
     "price": 2400,
     "img": "./ASSETS/PICS/7 REMERA BLANCA SPUM.jpg",
@@ -84,7 +84,7 @@
 
       {"name":"SPUM HOMBRE GRIS",
       "subtitle": "",
-      "info":"",
+      "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm <br> T.6= 58cm x 74cm <br> T.8= 62cm x 80cm",
       "id": 8,
       "price": 2500,
       "img": "./ASSETS/PICS/8 REMERA GRIS SPUM.jpg",
@@ -94,7 +94,7 @@
 
       {"name":"REMERON SUBLIMABLE",
       "subtitle": "",
-      "info":"",
+      "info":"Medidas orientativas: <br> T.XS= 44cm x 76cm <br> T.S= 46cm x 78cm <br> T.M= 48cm x 79cm <br> T.L= 50cm x 80cm <br> T.XL= 52cm x 81cm <br> T.XXL= 54cm x 82cm",
       "id": 9,
       "price": 3000,
       "img": "./ASSETS/PICS/9 REMERON.jpg",
@@ -104,7 +104,7 @@
 
       {"name":"MODAL PREMIUM RANGLAN BLANCA",
       "subtitle": "",
-      "info":"",
+      "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm",
       "id": 10,
       "price": 2800,
       "img": "./ASSETS/PICS/B1 MANGA RANGLAN BLANCA.jpg",
@@ -114,7 +114,7 @@
 
       {"name":"MANGA RANGLAN GRIS",
       "subtitle": "",
-      "info":"",
+      "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm",
       "id": 11,
       "price": 2900,
       "img": "./ASSETS/PICS/B2  MANGA RANGLAN GRIS..jpg",
@@ -125,7 +125,7 @@
 
       {"name":"MANGA RANGLAN NIÑO BLANCA",
       "subtitle": "",
-      "info":"",
+      "info":"Medidas orientativas: <br> T.6= 30cm x 44cm <br> T.8= 32cm x 46cm <br> T.10= 34cm x 48cm <br> T.12= 36cm x 50cm <br> T.14= 38cm x 52cm <br> T.16= 40cm x 54cm",
       "id": 12,
       "price": 1800,
       "img": "./ASSETS/PICS/B3 MANGA RANGLAN NIÑO BLANCA.jpg",
@@ -135,7 +135,7 @@
 
       {"name":"MANGA RANGLAN NIÑO GRIS",
       "subtitle": "",
-      "info":"",
+      "info":"Medidas orientativas: <br> T.6= 30cm x 44cm <br> T.8= 32cm x 46cm <br> T.10= 34cm x 48cm <br> T.12= 36cm x 50cm <br> T.14= 38cm x 52cm <br> T.16= 40cm x 54cm",
       "id": 13,
       "price": 1900,
       "img": "./ASSETS/PICS/B4 MANGA RANGLAN NIÑO GRIS.jpg",
@@ -146,7 +146,7 @@
 
       {"name":"SUDADERAS SUBLIMABLES",
       "subtitle": "",
-      "info":"",
+      "info":"Medidas orientativas: <br> T.1= 36cm x 54cm <br> T.2= 38cm x 56cm <br> T.3= 41cm x 58cm <br> T.4= 43cm x 60cm <br> T.5= 45cm x 62cm",
       "id": 14,
       "price": 1900,
       "img": "./ASSETS/PICS/B5 SUDADERAS.jpg",
@@ -156,7 +156,7 @@
 
       {"name":"ALGODÓN 24/1 P. TAPA COSTURA",
       "subtitle": "",
-      "info":"",
+      "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm <br> T.6= 58cm x 74cm <br> T.8= 62cm x 80cm",
       "id": 15,
       "price": 3800,
       "img": "./ASSETS/PICS/B6 REMERAS ALGODON.jpg",
@@ -166,7 +166,7 @@
 
       {"name":"ALGODON 24/1 P. T/C. ESP.",
       "subtitle": "",
-      "info":"",
+      "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm <br> T.6= 58cm x 74cm <br> T.8= 62cm x 80cm",
       "id": 16,
       "price": 4200,
       "img": "./ASSETS/PICS/B7 REMERAS ALGODON ESP.jpg",
@@ -176,7 +176,7 @@
 
       {"name":"CANGURO GRIS SUBLIMABLE",
       "subtitle": "",
-      "info":"",
+      "info":"Medidas orientativas: <br> T.1= 54cm x 66cm <br> T.2= 56cm x 68cm <br> T.3= 58cm x 70cm <br> T.4= 60cm x 72cm <br> T.5= 62cm x 74cm",
       "id": 17,
       "price": 9500,
       "img":"./ASSETS/PICS/B8 BUZO CANGURO GRIS.jpg",
@@ -186,7 +186,7 @@
 
       {"name":"CANGURO GRIS NIÑO SUB.",
       "subtitle":"",
-      "info":"",
+      "info":"Medidas orientativas: <br> T.10= 40cm x 54cm <br> T.12= 43cm x 56cm <br> T.14= 46cm x 58cm <br> T.16= 48cm x 60cm <br> T.18= 50cm x 63cm",
       "id": 18,
       "price": 8500,
       "img":"./ASSETS/PICS/B9 BUZO CANGURO MIÑO GRIS.jpg",
@@ -195,7 +195,7 @@
 
       {"name":"CANGURO RANGLAN SUB.",
       "subtitle":"",
-      "info":"",
+      "info":"Medidas orientativas: <br> T.1= 54cm x 66cm <br> T.2= 56cm x 68cm <br> T.3= 58cm x 70cm <br> T.4= 60cm x 72cm <br> T.5= 62cm x 74cm",
       "id": 19,
       "price": 9200,
       "img":"./ASSETS/PICS/C1 BUZO CANGURO RANGLAN.jpg",
@@ -204,7 +204,7 @@
 
       {"name":"CANGURO ALGODON PEINADO",
       "subtitle":"",
-      "info":"",
+      "info":"Medidas orientativas: <br> T.1= 54cm x 66cm <br> T.2= 56cm x 68cm <br> T.3= 58cm x 70cm <br> T.4= 60cm x 72cm <br> T.5= 62cm x 74cm",
       "id": 20,
       "price": 10500,
       "img":"./ASSETS/PICS/C2 BUZO CANGURO NEGRO.jpg",
@@ -214,7 +214,7 @@
 
       {"name":"BUZO LANILLA SUBLIMABLE",
       "subtitle":"",
-      "info":"",
+      "info":"Talle Unico: <br> Ancho= 46cm <br> Largo= 64cm",
       "id": 21,
       "price": 5000,
       "img":"./ASSETS/PICS/C3 BUZO LANILLA.jpg",
@@ -225,7 +225,7 @@
 
       {"name":"CAMPERA UNIV. SUBLIMABLE",
       "subtitle":"",
-      "info":"",
+      "info":"Medidas orientativas: <br> T.1= 50cm x 66cm <br> T.2= 52cm x 68cm <br> T.3= 54cm x 70cm <br> T.4= 56cm x 72cm <br> T.5= 58cm x 74cm",
       "id": 22,
       "price": 10200,
       "img":"./ASSETS/PICS/C4 CAMPERA UNIVERSITARIA.jpg",
@@ -235,7 +235,7 @@
 
       {"name":"CAMPERA UNIV. SUBLIMABLE NIÑO",
       "subtitle":"",
-      "info":"",
+      "info":"Medidas orientativas: <br> T.10= 35cm x 56cm <br> T.12= 40cm x 58cm <br> T.14= 43cm x 60cm <br> T.16= 46cm x 62cm <br> T.18= 49cm x 64cm",
       "id": 23,
       "price": 8500,
       "img":"./ASSETS/PICS/C5 CAMPERA UNIVERSITARIA NIÑO.jpg",
