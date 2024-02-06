@@ -115,7 +115,7 @@ fetch("./productos.json")
 
             <h3 class="infoPrice">$ ${prod.price} </h3>
 
-            <a onclick="buscarProducto(${prod.id})">Ver talles...</a>
+            <a href="#divHref" onclick="buscarProducto(${prod.id})">Ver talles...</a>
     
             
             </div>

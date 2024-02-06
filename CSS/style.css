@@ -675,9 +675,10 @@ footer h4 {
 }
 
 .aloneContainer {
-    width: 80%;
+    width: 90%;
     height: 100%;
     display: flex;
+    
     
     
 }
@@ -685,8 +686,8 @@ footer h4 {
 
 .aloneContainer img {
     
-    width: 140px;
-    height: 250px;
+    width: 150px;
+    height: 200px;
     margin-top: 20px;
     justify-content: center;
     

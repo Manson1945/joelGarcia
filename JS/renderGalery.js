@@ -13,7 +13,7 @@ const renderGalery = () => {
         salida +=   `
                     
                     <div class="pics">
-                      <a href="#"> <img class="galeryImg" src="${prod.img}"> </a>  
+                      <a href="#divHref" onclick="buscarProducto(${prod.id})"> <img class="galeryImg" src="${prod.img}"> </a>  
                     </div>   
                      `  
     }
