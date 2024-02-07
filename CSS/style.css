@@ -87,6 +87,15 @@ body {
     
 }
 
+@media screen and  (max-width: 319px) {
+    
+    body {
+        display: none;
+    }
+}
+    
+
+
 
 /* ------- HEADER ------ */
 
@@ -187,7 +196,22 @@ nav a i {
 
 
 
+
+
+
+
+
+
 /* ----- BANNER ----- */
+
+
+
+
+
+
+
+
+
 
 
 
@@ -247,7 +271,26 @@ nav a i {
 
 
 
+
+
+
+
+
+
+
+
+
 /* ----- GALERIA ----- */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -273,7 +316,26 @@ nav a i {
 }
 
 
+
+
+
+
+
+
+
+
 /* ----- CATEGORIAS ------ */
+
+
+
+
+
+
+
+
+
+
+
 
 .categorias {
     margin-top: 50px;
@@ -374,7 +436,20 @@ nav a i {
 }
 
 
+
+
+
+
+
+
 /* ------ MAIN ------ */
+
+
+
+
+
+
+
 
 .destacados {
     margin: 20px;
@@ -489,7 +564,22 @@ nav a i {
     color: #FEFAE0;
 }
 
+
+
+
+
+
+
+
 /* ------ FOOTER ------- */
+
+
+
+
+
+
+
+
 
 footer {
     height: 800px;
@@ -557,6 +647,10 @@ footer h4 {
     align-items: center;
     border-top: 1px solid rgb(212, 212, 212);
     
+}
+
+.shipments h4 {
+    margin: 30px 0;
 }
 
 
@@ -661,8 +755,24 @@ footer h4 {
 }
 
 
+footer h5 {
+    color: #9d9d9d
+}
+
+
+
 
 /* ------- PRODUCTO ---------- */
+
+
+
+
+
+
+
+
+
+
 
 #productContainer {
     width: 100%;
@@ -758,3 +868,407 @@ footer h4 {
     
     border-radius: 100%;
 }
+
+
+
+
+
+
+
+
+
+/* ---------DESKTOP----------- */
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1399px) {
+
+    .disclaimer {
+        height: 150px;
+
+
+    
+    }
+    
+    .disclaimer p {
+        
+        margin: 30px 300px; 
+        font-size: 1.1rem;
+    }
+
+    #recharge {
+        font-size: .9rem;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+        align-self: center;
+    }
+
+    .headerTitle {
+        font-size:2rem ;
+    }
+
+   
+    nav {
+        margin: 0 200px;
+    }
+
+    nav a {
+        font-size: 1.3rem;
+    }
+
+    header {
+        top: 5px;  
+    }
+
+    .categorias {
+        margin-top: 150px;
+        font-size: 1.5rem;
+        letter-spacing: 20px;
+        text-decoration: underline;
+    }
+
+    .category {
+        width: 25%;
+        height: 25%;
+    
+    }
+
+    .categories {
+        margin: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+
+    .destacados {
+        margin:50px;
+        font-size: 1.5rem;
+        text-decoration: underline;
+        letter-spacing: 20px;
+        
+    }
+
+
+
+
+
+    /* -------MAIN------- */
+
+
+
+
+
+    #mainContainer {
+        margin: 0 200px;
+        border-bottom: solid 1px rgb(216, 216, 216);
+        
+    }
+    
+    .prodContainer {
+        width: 20%;
+        margin: 30px 0;
+        
+        
+        
+    }
+    
+     /* .prodContainer a {
+        text-decoration: none;
+    }
+    
+    .prodContainer img {
+        
+        display: flex;
+        width: 140px;
+        height: 200px;
+        position: relative;
+        top: 15px;
+        
+        
+    
+    }
+    
+    .skewDiv {
+        display: flex;
+        
+        width: 144px;
+        
+        height: 15px;
+        background-color: rgb(212, 212, 212);
+        transform: skewY(-3deg);
+        position: relative;
+        top: 4px;
+    }
+    
+    .infoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 15px;
+        background-color: rgb(212, 212, 212);
+        
+        
+    }
+    
+    .infoTitle {
+        min-width: 135px;
+        max-width: 140px;
+        
+    }
+    
+    .infoContainer h3 {
+        padding-top: 5px;
+        padding-bottom: 3px;
+        font-family: montserrat;
+        font-size: .8rem;
+        letter-spacing: 1px;
+        text-align: center;
+        color: #001524;
+    }
+    
+    .infoContainer a {
+        padding: 2px;
+        font-family: montserrat;
+        font-size: .7rem;
+        letter-spacing: 1.5px;
+        
+        color:#001524
+    } */
+     
+    
+    
+    .seeAll {
+        display: none;
+    }
+    
+    
+
+
+
+
+
+    /* ------ FOOTER ------- */
+
+
+
+
+footer {
+    margin-top: 20px;
+    height: 400px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr) ;
+    /* flex-direction: column;
+    justify-content:space-around; */
+    /* align-items: center; */
+    background-color: rgb(236, 236, 236);
+    color:#001524;
+}
+
+footer h3 {
+    font-family: montserratRegular;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-align: center;
+}
+
+footer h4 {
+    font-family: montserrat;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.followUs  {
+    max-width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    border-top: rgb(212, 212, 212) 1px solid;
+}
+
+
+.followUs h4 {
+    font-family: montserrat;
+    font-size: .8rem;
+    padding-left: 10px;
+
+}
+
+.followUs a {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 0 10px;
+    padding: 10px;
+    font-family: montserrat;
+    font-size: 1rem;
+    text-decoration: none;
+    color:#001524;
+    
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+
+.shipments {
+    grid-column: 2 / 3;
+
+
+
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid ;
+    
+}
+
+
+
+
+.shipments h4 {
+    margin: 30px 0;
+}
+
+
+
+
+.ftLinks {
+    margin-top: 20px;
+    height: 100%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+
+    /* display: flex;
+    flex-direction: column;
+    align-items:center; */
+    
+}
+
+.ftLinks a {
+    font-family: montserrat;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    margin: 5px;
+    color: #001524;
+}
+
+.shipmentsWays {
+    
+    border-top:solid 1px rgb(236, 236, 236);
+    
+}
+
+.shipmentsWays h3 {
+    padding: 5px;
+}
+
+.oca {
+    width: 75px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.cruceroExpress {
+    width:100px;
+    height: 30px;
+}
+
+.rutaCargo {
+    width: 100px;
+    height: 30px;}
+
+.contact {
+    margin-top: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .webs h4 {
+    text-align: center;
+    align-items: center;
+} */
+
+.contact a {
+    
+    text-decoration:none;
+    display: flex;
+    font-family: montserrat;
+    color: #001524;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.contact i {
+    margin-right: 10px;
+}
+
+.contact h4 {
+    margin-top: 5px;
+}
+
+.maps {
+    grid-column: 3 / 4;
+    text-decoration: none;
+    color: #001524;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maps img {
+    width: 60px;
+    height: 60px;
+}
+
+.maps h4 {
+    padding-left: 5px;
+}
+
+.maps h5 {
+    font-family: montserrat;
+    font-size: .7rem;
+    padding-left: 7px;
+    letter-spacing: 1px;
+}
+.hour {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    text-align:center;
+    line-height: 25px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

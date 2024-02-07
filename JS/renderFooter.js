@@ -7,6 +7,8 @@ const renderFooter = ()=> {
     
 
 <section class="shipments shipmentsWays">
+    <h3>SE PUEDE RETIRAR POR LANUS</h3>
+    <h4>Tambien hacemos...</h4>
     <h3>ENVIOS A TODO EL PAIS <i class="fa-solid fa-truck-fast"></i></h3>
     <div>
         <img class="oca" src="./ASSETS/ENVIOS/oca.png" alt="" >
@@ -38,7 +40,7 @@ const renderFooter = ()=> {
 <img src="./ASSETS/ENVIOS/maps.jpg" alt=""">
 
     <div>
-        <h4>H.Yrigoyen 5096</h4> 
+        <h4>H.Yrigoyen 5096 - Planta Alta</h4> 
         <h4>Lanús Oeste</h4>
         <h5>Ver Ubicación...</h5>
     </div>
@@ -54,6 +56,10 @@ const renderFooter = ()=> {
     <h4>Lunes a Viernes 10hs a 18hs</h4>
     <h4>Sábados 11.30hs a 15hs</h4>
 </section>
+
+
+<h5>DevSolved. La marca y todos los derechos reservados. <i class="fa-regular fa-registered"></i></h5> 
+
                     `
 
                     document.getElementById("footer").innerHTML = salida;

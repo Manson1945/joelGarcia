@@ -95,7 +95,7 @@ fetch("./productos.json")
     
             salida +=
              ` 
-            <a href="#divHref">
+            <a href="#productoContainer">
             <section class="prodContainer" onclick="buscarProducto(${prod.id})">
     
             <img src="${prod.img}" > 
