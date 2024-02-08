@@ -60,7 +60,7 @@ const renderFooter = ()=> {
 <img src="./ASSETS/logo.png" id="logoFooter">
 
 
-<h5>DevSolved. La marca y todos los derechos reservados. <i class="fa-regular fa-registered"></i></h5> 
+<h5 class="registered">DevSolved. La marca y todos los derechos reservados. <i class="fa-regular fa-registered"></i></h5> 
 
                     `
 

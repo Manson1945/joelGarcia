@@ -5,7 +5,7 @@
 
   {"name": "MODAL PREMIUM HOMBRE BLANCO",
   "subtitle":"",
-  "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm <br> T.6= 58cm x 74cm <br> T.8= 62cm x 80cm",
+  "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm <br> T.6= 58cm x 74cm <br> T.8= 62cm x 80cm <br> Talle 6 y 8= $700 recargo",
   "id": 1,
   "price": 2800,
   "img":"./ASSETS/PICS/1 REMERA BLANCA MODAL.jpg",
@@ -39,7 +39,7 @@
 
   {"name": "REMERA HOMBRE GRIS",
   "subtitle":"",
-  "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm <br> T.6= 58cm x 74cm <br> T.8= 62cm x 80cm",
+  "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm <br> T.6= 58cm x 74cm <br> T.8= 62cm x 80cm <br> Talle 6 y 8= $700 recargo",
   "id": 4,
   "price": 2900,
   "img":"./ASSETS/PICS/4 REMERA GRIS.jpg",
@@ -74,7 +74,7 @@
 
     {"name":"SPUM HOMBRE BLANCA",
     "subtitle":"",
-    "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm <br> T.6= 58cm x 74cm <br> T.8= 62cm x 80cm",
+    "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm <br> T.6= 58cm x 74cm <br> T.8= 62cm x 80cm <br> Talle 6= $500 recargo",
     "id": 7,
     "price": 2400,
     "img": "./ASSETS/PICS/7 REMERA BLANCA SPUM.jpg",
@@ -84,7 +84,7 @@
 
       {"name":"SPUM HOMBRE GRIS",
       "subtitle": "",
-      "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm <br> T.6= 58cm x 74cm <br> T.8= 62cm x 80cm",
+      "info":"Medidas orientativas: <br> T.1= 48cm x 64cm <br> T.2= 50cm x 66cm <br> T.3= 52cm x 68cm <br> T.4= 54cm x 70cm <br> T.5= 56cm x 72cm <br> T.6= 58cm x 74cm <br> T.8= 62cm x 80cm <br> Talle 6= $500 recargo",
       "id": 8,
       "price": 2500,
       "img": "./ASSETS/PICS/8 REMERA GRIS SPUM.jpg",

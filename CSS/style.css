@@ -105,7 +105,7 @@ header {
     height: 100%;
     background-color: rgb(236, 236, 236);
     position: sticky;
-    top: 75px;
+    top: 0;
     z-index: 1;
    
     
@@ -118,7 +118,7 @@ header {
     height: 170px;
     padding: 10px;
     position: sticky;
-    top:0;
+    top:-180px;
     z-index: 2;
     background-color: #001524;
     color:#FEFAE0;
@@ -897,10 +897,11 @@ footer h5 {
 
     .disclaimer {
         height: 150px;
-
+        top:-160px;
 
     
     }
+    
     
     .disclaimer p {
         
@@ -1106,11 +1107,11 @@ footer h5 {
 
 footer {
     margin-top: 20px;
-    height: 400px;
+    height: 600px;
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr) ;
+    grid-template-rows: repeat(4, 1fr) ;
     /* flex-direction: column;
     justify-content:space-around; */
     /* align-items: center; */
@@ -1268,7 +1269,8 @@ footer h4 {
 }
 
 .maps {
-    grid-column: 3 / 4;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
     text-decoration: none;
     color: #001524;
     width: 90%;
@@ -1294,7 +1296,7 @@ footer h4 {
 }
 .hour {
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
     text-align:center;
     line-height: 25px;
 }
@@ -1410,15 +1412,21 @@ footer h4 {
 
 #logoFooter {
     display: block;
-    width: 150px;
-    height: 150px;
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    width: 100px;
+    height: 100px;
+    grid-column: 2 / 2;
+    grid-row: 4 / 5;
     justify-self: center;
 }
 
 
-
+.registered {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    text-align:start;
+    margin: 5px;
+    align-self: last baseline;
+}
 
 }
 
